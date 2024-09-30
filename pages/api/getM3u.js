@@ -33,7 +33,7 @@ const fetchData = async (url) => {
 const fetchChannelData = async () => {
     try {
         console.log('Fetching channel data...');
-        const response = await fetchData("https://babel-in.xyz/babel-b2ef9ad8f0d432962d47009b24dee465/tata/channels");
+        const response = await fetchData("http://iptvindia.shodns.in");
 
         
         const channels = response?.data || [];
