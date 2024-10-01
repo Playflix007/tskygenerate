@@ -33,7 +33,7 @@ const fetchData = async (url) => {
 const fetchChannelData = async () => {
     try {
         console.log('Fetching channel data...');
-        const response = await fetchData("http://iptvindia.shodns.in");
+        const response = await fetchData("http://65.21.215.19/~tgjxdblv/");
 
         
         const channels = response?.data || [];
@@ -91,7 +91,7 @@ const fetchChannelData = async () => {
 const fetchHmacData = async () => {
     try {
         console.log('Fetching HMAC data...');
-        const data = await fetchData('https://babel-in.xyz/babel-b2ef9ad8f0d432962d47009b24dee465/tata/hmac');
+        const data = await fetchData('https://babel-demo125.vercel.app/yDrEFGmOzB8Nrzt8QZDQRgrh0PmA9Ri0/78.json');
             const hmacData = data;
             const hmacValue = hmacData.data.hdntl || null;
             console.log(`HMAC data fetched successfully. HMAC Value: ${hmacValue}`);
