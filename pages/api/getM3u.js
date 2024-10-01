@@ -33,7 +33,7 @@ const fetchData = async (url) => {
 const fetchChannelData = async () => {
     try {
         console.log('Fetching channel data...');
-        const response = await fetchData("http://65.21.215.19/~tgjxdblv/");
+        const response = await fetchData("https://rahuketu.rf.gd/?i=1");
 
         
         const channels = response?.data || [];
